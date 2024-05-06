@@ -6,72 +6,81 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <address>
-        <p>
-          <span>Customer Care:</span>
-          <a href="tel:+12345678900">+1 (234) 567 89 00</a>
+    <header class="header">
+      <address class="header__contact">
+        <p class="header__contact-item">
+          <span class="header__contact-label">Customer Care:</span>
+          <a class="header__contact-link" href="tel:+12345678900">+1 (234) 567 89 00</a>
         </p>
-        <p>
-          <span>Email:</span>
-          <a href="mailto:musicdevicesshop@email.com"
-            >musicdevicesshop@email.com</a
-          >
+        <p class="header__contact-item">
+          <span class="header__contact-label">Email:</span>
+          <a class="header__contact-link" href="mailto:musicdevicesshop@email.com">musicdevicesshop@email.com</a>
         </p>
       </address>
-      <nav>
-        <a href="index.html">
+      <nav class="header__nav">
+        <a class="header__logo-link" href="index.html">
           <img
+            class="header__logo"
             width="114"
             src="img/common.header/bass-logo.svg"
             alt="Bass Logo"
           />
         </a>
-        <ul>
-          <li>
-            <a href="#">Headphones</a>
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Headphones</a>
           </li>
-          <li>
-            <a href="#">Speakers</a>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Speakers</a>
           </li>
-          <li>
-            <a href="#">News</a>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">News</a>
           </li>
-          <li>
-            <a href="#">Testimonials</a>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Testimonials</a>
           </li>
         </ul>
-        <ul>
-          <li>
-            <a href="https://facebook.com">
-              <svg width="28"
-                class="si6638d7e56ff9653677dabe81c9601a60459348248a14263c85e81f021715001325766 svgIcon_1J7 filled_Qbi"
+        <ul class="header__social-list">
+          <li class="header__social-item">
+            <a class="header__social-link" href="https://facebook.com">
+              <svg
+                width="28"
+                class="header__social-icon header__social-icon--facebook"
                 viewBox="0 0 32 32"
               >
                 <path
-                  class="outer_bDW"
+                  class="header__social-outer"
                   d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z"
                   fill-rule="evenodd"
                 ></path>
                 <path
                   d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
-                  class="border_2yy"
+                  class="header__social-border"
                 ></path>
                 <path
-                  class="logo_2gS"
+                  class="header__social-logo"
                   d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z"
                   style="color: #fff; fill: #fff"
                 ></path>
               </svg>
             </a>
           </li>
-          <li>
-            <a href="#">
-                <img src="img/common.header/instagram.svg" alt="Instagram Logo">
+          <li class="header__social-item">
+            <a class="header__social-link" href="#">
+              <img
+                class="header__social-icon header__social-icon--instagram"
+                src="img/common.header/instagram.svg"
+                alt="Instagram Logo"
+              />
             </a>
           </li>
         </ul>
       </nav>
+      <div class="header__banner">
+        <h1 class="header__banner-title">Zen Cottages</h1>
+        <p class="header__banner-description">Cottages...</p>
+        <button class="header__banner-button">Order</button>
+      </div>
     </header>
   </body>
 </html>
